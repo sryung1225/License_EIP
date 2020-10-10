@@ -1,5 +1,0 @@
-x = input()
-x = x.capitalize()
-y = x.split()
-print(y[0][::2], end = '*')
-print(y[1][3:6])
