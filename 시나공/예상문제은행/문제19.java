@@ -7,3 +7,9 @@ public class Test {
 		System.out.printf(str01);
 	}
 }
+
+// a = a-(b-c) = 10-(10-30) = 30, b = -20
+// a = a+b = 30-20 = 10
+// a<=b : 10 <= -20 : 거짓 => String.format("%d", b)
+
+// 결과 -20
